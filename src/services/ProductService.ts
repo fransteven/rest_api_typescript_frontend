@@ -1,6 +1,6 @@
 import axios from 'axios'
 import { DraftProductSchema, Product, ProductSchema, ProductsSchema } from '../types'
-import { safeParse,coerce, number,parse, pipe, string, transform } from 'valibot'
+import { safeParse, number,parse, pipe, string, transform } from 'valibot'
 import { toBoolean } from '../utils';
 type ProductData = {
     [k: string]: FormDataEntryValue;
